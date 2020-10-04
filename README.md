@@ -9,4 +9,7 @@ The next step was to examine the correlation between the features and drop featu
 
 Reading the Matrix I had some doubts about how the model can be able to recognise the forward position. Definitely, the center has the rebound and the block attribute, the guards the assist, turnovers and 3pa but which feature could distinguish the forwards. In order to find a unique feature I tried to visualize the three positions and compare the mean value of every feature. The feature that made the forwards to stand out was the VORP (Value Over Replacement Player)
 
+![VORP](https://user-images.githubusercontent.com/66875726/95019722-b3a4f180-066f-11eb-8a78-5d1ed5da383d.png)
+
+
 
