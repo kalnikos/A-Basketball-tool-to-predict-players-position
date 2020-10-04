@@ -11,5 +11,6 @@ Reading the Matrix I had some doubts about how the model can be able to recognis
 
 ![VORP](https://user-images.githubusercontent.com/66875726/95019722-b3a4f180-066f-11eb-8a78-5d1ed5da383d.png)
 
+I also used one more feature selection technique, the Univariate feature selection in order to determine the relationship of the features with the target variable.
 
-
+Finally, I realised that my target value had unbalanced observations and I used the resample method to balance the numbers. After this procedure the total rows are 11000.  
