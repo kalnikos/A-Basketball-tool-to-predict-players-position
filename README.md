@@ -15,5 +15,8 @@ I also used one more feature selection technique, the Univariate feature selecti
 
 In addition, I realised that my target value had unbalanced observations and I used the resample method to balance them. After this procedure the total rows were 11000.  
 
-Finally, I used a dimension reduction method, the Principal Component Analysis in order to identify clusters.  
+Finally, I used a dimension reduction method, the Principal Component Analysis in order to visualize the data and identify clusters.  
+
+![PCA](https://user-images.githubusercontent.com/66875726/95027556-262ec500-06a2-11eb-92f8-89399c9fc902.png)
+
 
