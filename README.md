@@ -28,3 +28,5 @@ less than 60% the dataset’s variance ratio lies along the first two components
 
 Let’s now dive to the prediction part. As I said at the beginning I started with a small data set separated the target in five positions the model wasn’t able to classify five different positions. In order to achieve better prediction results I performed the following steps. Firstly, I export bigger data set, and I divided the target column to tree positions Guards, Forwards and Centers. Secondly, I pick the most relevant features based on the Univariate feature selection  technique and Lastly, I balanced the observations used the resample technique.
 
+Initially, I trained a K Nearest Neighbor model with 3 neighbors and the model accuracy was 85%. Definitely, an impressive number considering that at my first model the accuracy was less than 60%.  Obviously, it’s necessary the computation of the cross validation scores to prevent overfitting. The cross validation scores verified our concerns and I tried Different K values to overcame this issue.        
+
