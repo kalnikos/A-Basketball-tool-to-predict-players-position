@@ -22,3 +22,9 @@ Finally, I used a dimension reduction method, the Principal Component Analysis i
 less than 60% the dataset’s variance ratio lies along the first two components. I received a better Variance Ratio adding one more component. Below is a 3D graph with 68% Variance Ratio  
 
 ![newplot (4) (1)](https://user-images.githubusercontent.com/66875726/95482277-9c7b4200-0996-11eb-8993-0395492cebf6.png)
+
+
+##Machine Learning
+
+Let’s now dive to the prediction part. As I said at the beginning I started with a small data set separated the target in five positions the model wasn’t able to classify five different positions. In order to achieve better prediction results I performed the following steps. Firstly, I export bigger data set, and I divided the target column to tree positions Guards, Forwards and Centers. Secondly, I pick the most relevant features based on the Univariate feature selection  technique and Lastly, I balanced the observations used the resample technique.
+
