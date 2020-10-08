@@ -19,4 +19,6 @@ Finally, I used a dimension reduction method, the Principal Component Analysis i
 
 ![PCA](https://user-images.githubusercontent.com/66875726/95027556-262ec500-06a2-11eb-92f8-89399c9fc902.png)
 
-less than 60% the dataset’s variance ratio lies along the first two components. I received a better Variance Ratio adding one more component. Below is a 3D graph    
+less than 60% the dataset’s variance ratio lies along the first two components. I received a better Variance Ratio adding one more component. Below is a 3D graph with 68% Variance Ratio  
+
+![newplot (1)](https://user-images.githubusercontent.com/66875726/95481540-c5e79e00-0995-11eb-82d5-1eeea7d462b6.png)
