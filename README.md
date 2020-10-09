@@ -26,7 +26,10 @@ less than 60% the dataset’s variance ratio lies along the first two components
 
 ## Machine Learning
 
-Let’s now dive to the prediction part. As I said at the beginning I started with a small data set separated the target in five positions the model wasn’t able to classify five different positions. In order to achieve better prediction results I performed the following steps. Firstly, I export bigger data set, and I divided the target column to tree positions Guards, Forwards and Centers. Secondly, I pick the most relevant features based on the Univariate feature selection  technique and Lastly, I balanced the observations used the resample technique.
+Let’s nowdive to the prediction part. As I said at the beginning I started with a smalldata set separated the target in five positions the model wasn’t able to classifyfive different positions. In order to achieve better prediction results I performedthe following steps. Firstly, I exported a bigger data set, and I divided thetarget column to tree positions Guards, Forwards and Centers. Secondly, I pickthe most relevant features based on the Univariate feature selection  technique and Lastly, I balanced the observationsusing the resample technique.
 
-Initially, I trained a K Nearest Neighbor model with 3 neighbors and the model accuracy was 85%. Definitely, an impressive number considering that at my first model the accuracy was less than 60%.  Obviously, it’s necessary the computation of the cross validation scores to prevent overfitting. The cross validation scores verified our concerns and I tried Different K values to overcame this issue.        
+Initially, Itrained a K Nearest Neighbor model with 3 neighbors and the model accuracy was 85%.Definitely, an impressive number considering that at my first model theaccuracy was less than 60%.  Obviously,it’s necessary to compute the cross validation scores to prevent overfitting.The cross validation scores verified our concerns and I tried different Kvalues to overcome this issue. 
 
+![K-nn](https://user-images.githubusercontent.com/66875726/95487170-a1db8b00-099c-11eb-8bb8-232aab467d24.png)
+
+I picked K=14 in order to make the model more complex and prevent it from overfitting.My next step was to look at the F1 scores. My biggest concern became true, the predictions per position were Guards 81%, Forwards 67%, Centers 82%, the model was able to identify in a satisfactory level the Guards and the Centers but it had problems with the forwards position.
