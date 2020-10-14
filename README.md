@@ -36,5 +36,5 @@ I picked K=14 in order to make the model more complex and prevent it from overfi
 
 The next algorithm that I chose to train was a Decision Tree using the Bagging Ensemble technique. The results were the same as before, thus in order to improve the classifier I used the voting method and I achieved over than 70% accuracy at the forwards position.  
 
-Finally, I was ready to examine the test data set, the result wasn’t unexpected the model’s accuracy was 77% accuracy and the F1 scores were 80% Guards, 68% Forwards and 83% Centers.
+Finally, I was ready to examine the test data set, the result wasn’t unexpected the model’s accuracy was 77% and the F1 scores were 80% Guards, 68% Forwards and 83% Centers.
 Although When I started developing the model my expectations were higher the result was at a satisfactory level considering the complexity of the problem. So,the question is what could I have done better in order to achieve better results. The main problem I think was at the features I haven’t had many attributes that could split better the positions, maybe features such as the player height and the dribbling time could be an improvement for this particular dataset.. 
