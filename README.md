@@ -33,3 +33,8 @@ Initially, I trained a K Nearest Neighbor model with 3 neighbors and the model a
 ![K-nn](https://user-images.githubusercontent.com/66875726/95487170-a1db8b00-099c-11eb-8bb8-232aab467d24.png)
 
 I picked K=14 in order to make the model more complex and prevent it from overfitting. My next step was to look at the F1 scores. My biggest concern became true, the predictions per position were Guards 81%, Forwards 67%, Centers 82%, the model was able to identify in a satisfactory level the Guards and the Centers but it had problems with the forwards position.
+
+The next algorithm that I chose to train was a Decision Tree using the Bagging Ensemble technique. The results were the same as before, thus in order to improve the classifier I used the voting method and I achieved over than 70% at the forwards position.  
+
+Finally, I was ready to examine the test data set, the result wasn’t unexpected the model’s accuracy was 77% and the F1 scores were 80% Guards, 68% Forwards and 83% Centers.
+Although When I started developing the model my expectations were higher the result was at a satisfactory level considering the complexity of the problem. So,the question is what could I have done better in order to achieve better results. The main problem I think was at the features I haven’t had many attributes that could split better the positions, maybe features such as the player height and the dribbling time could be an improvement for this particular dataset.. 
